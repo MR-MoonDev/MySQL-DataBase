@@ -1,1 +1,4 @@
-SELECT * FROM topic2_constraints.unique_;
+create table unique_ (
+  id int Unique,
+  name varchar(20)
+)
