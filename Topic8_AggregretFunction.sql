@@ -26,6 +26,11 @@ values
 select * from Condition_select 
 order by name ASC;
 
-select count(*) from Condition_select 
+select count(*) from Condition_select ;
+select MAX(id) from Condition_select ;
+select sum(id) from Condition_select ;
+select min(id) from Condition_select ;
+
+
  
 
